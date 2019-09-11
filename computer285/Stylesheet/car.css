@@ -1,0 +1,82 @@
+﻿.media-carousel .carousel-control {
+    opacity: 4.0;
+}
+
+    .media-carousel .carousel-control.right {
+        margin-right: 1%;
+    }
+
+    .media-carousel .carousel-control.left {
+        margin-left: 1%;
+    }
+
+    .media-carousel .carousel-control i {
+        margin-top: 110%;
+        border-radius: 100%;
+        border: 2px solid #161616;
+        background-color: #161616;
+        width: 50px;
+        height: 50px;
+        line-height: 20px;
+        padding: 14px;
+        vertical-align: middle;
+    }
+
+.media-carousel .carousel-control {
+    height: 0;
+}
+
+    .media-carousel .carousel-control i:hover {
+        border: 2px solid #1517df4a;
+        background-color: #f04ee0;
+    }
+
+
+
+
+.carousel-caption p {
+    animation-delay: 3s;
+    font-size: 20px;
+}
+
+.header-text {
+    font-size: 14px;
+}
+
+@media only screen and (max-width:580px) {
+
+
+
+    .carousel-caption h1 {
+        margin-top: -2%;
+        animation-delay: 2s;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        animation-delay: 3s;
+        font-size: 10px;
+    }
+
+
+    .header-text {
+        font-size: 10.1px;
+    }
+}
+
+@media only screen and (min-width:580px) and (max-width:900px) {
+
+
+    .carousel-caption h1 {
+        margin-top: -10%;
+        animation-delay: 2s;
+    }
+
+    .carousel-caption p {
+        animation-delay: 3s;
+    }
+
+    .media-carousel .carousel-control i {
+        margin-top: 5em;
+    }
+}
